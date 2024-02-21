@@ -1,0 +1,52 @@
+/* src/ExpenseForm.css */
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.expense-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-form label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.expense-form input {
+  padding: 12px;
+  margin: 8px 0;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+
+.edit {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* New styles for the Delete All button */
+.delete-all {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
